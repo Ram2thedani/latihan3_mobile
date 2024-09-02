@@ -11,7 +11,7 @@ class Page1 extends StatelessWidget {
           Container(
             height: 100,
             width: 100,
-            color: Colors.blue,
+            color: Colors.green,
             child: ElevatedButton(onPressed: () {}, child: Text("data")),
           ),
         ],
