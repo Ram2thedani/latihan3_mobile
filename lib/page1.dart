@@ -9,7 +9,7 @@ class Page1 extends StatelessWidget {
         body: Center(
       child: ElevatedButton(
           onPressed: () {
-            Navigator.pushNamed(context, '/');
+            Navigator.pushNamed(context, '/page2');
           },
           child: Text('Pindah ke halaman 2')),
     ));
