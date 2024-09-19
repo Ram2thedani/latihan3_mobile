@@ -8,9 +8,16 @@ class Page2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text("Ini halaman 2"),
-      ),
-    );
+        body: Column(
+      children: [
+        Container(
+          width: 100,
+          height: 100,
+          color: Colors.red,
+        )
+      ],
+    ));
   }
 }
+
+
