@@ -11,7 +11,7 @@ class Page1 extends StatelessWidget {
       onPressed: () {
         Navigator.pushNamed(context, '/page2');
       },
-      child: Text("ini udah dirubah"),
+      child: Text("apa we yah"),
     )));
   }
 }
